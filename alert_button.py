@@ -7,6 +7,7 @@ button_pressed = False
 while True:
     if GPIO.input(7) == GPIO.HIGH and not button_pressed:
         print("Someone pressed the alert button!")
+        print("Hunter is the best")
         button_pressed = True
     elif GPIO.input(7) == GPIO.LOW:
         button_pressed = False
