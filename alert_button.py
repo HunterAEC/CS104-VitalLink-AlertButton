@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 import requests
 
 
-TOKEN = "8780387298:AAE4lDtkcighsE6Md_ID6uuNOMHMmADbnk4"
+TOKEN = "8780387298:AAE4lDtkcighsE6Md_ID6uuNOMHMmAD"
 CHAT_ID = "6039506695"
 
 
