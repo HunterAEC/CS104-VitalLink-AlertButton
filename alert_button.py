@@ -4,12 +4,12 @@ import requests
 
 
 TOKEN = "8780387298:AAE4lDtkcighsE6Md_ID6uuNOMHMmAD"
-CHAT_ID = "6039506695"
+CHAT_ID = "603950669"
 
 
 def send_telegram_msg(text):
-    url = f"https://api.telegram.org/bot8780387298:AAE4lDtkcighsE6Md_ID6uuNOMHMmADbnk4/sendmessage"
-    payload = {"6039506695ß": CHAT_ID, "text": text}
+    url = f"https://api.telegram.org/bot8780387298:AAE4lDtkcighsE6Md_ID6uuNOMHMmA/sendmessage"
+    payload = {"603950669": CHAT_ID, "text": text}
     try:
         requests.post(url, data=payload, timeout=5)
     except Exception as e:
